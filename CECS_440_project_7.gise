@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="CECS_440_project_7.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name=".lso"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Branch_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="Branch_tb_isim_beh.wdb"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Instruction_memory_isim_beh.exe"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="PC_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="PC_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="Single_pipeline_branch.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="Single_pipeline_branch.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Single_pipeline_branch.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="Single_pipeline_branch.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="Single_pipeline_branch.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="Single_pipeline_branch.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="Single_pipeline_branch_envsettings.html"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Single_pipeline_branch_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="Single_pipeline_branch_summary.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Single_pipeline_branch_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1458970322" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1458970322">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1458970427" xil_pn:in_ck="3499593281307559342" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1458970427">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="../CECS_440_Project_2/ALU.v"/>
+      <outfile xil_pn:name="../CECS_440_Project_2/Control_Unit.v"/>
+      <outfile xil_pn:name="../CECS_440_Project_3/Reg_File.v"/>
+      <outfile xil_pn:name="../CECS_440_Project_5/Instruction_decoder.v"/>
+      <outfile xil_pn:name="../CECS_440_Project_5/Instruction_memory.v"/>
+      <outfile xil_pn:name="../CECS_440_Project_5/PC.v"/>
+      <outfile xil_pn:name="../CECS_440_lab_4/Data_memory.v"/>
+      <outfile xil_pn:name="../CECS_440_lab_4/mux_32_bit.v"/>
+      <outfile xil_pn:name="../CECS_440_lab_4/mux_5_bit.v"/>
+      <outfile xil_pn:name="../CECS_440_lab_4/sign_extender.v"/>
+      <outfile xil_pn:name="BEQ.v"/>
+      <outfile xil_pn:name="Branch_tb.v"/>
+      <outfile xil_pn:name="Shift_Left_2.v"/>
+      <outfile xil_pn:name="Single_pipelie_branch.v"/>
+      <outfile xil_pn:name="branch_adder.v"/>
+      <outfile xil_pn:name="mux_2_to_1.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1459795697" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-6580808883958736141" xil_pn:start_ts="1459795697">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1459795697" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-3019888263496282315" xil_pn:start_ts="1459795697">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1458970322" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="8147932640593706179" xil_pn:start_ts="1458970322">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1458970427" xil_pn:in_ck="3499593281307559342" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1458970427">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="../CECS_440_Project_2/ALU.v"/>
+      <outfile xil_pn:name="../CECS_440_Project_2/Control_Unit.v"/>
+      <outfile xil_pn:name="../CECS_440_Project_3/Reg_File.v"/>
+      <outfile xil_pn:name="../CECS_440_Project_5/Instruction_decoder.v"/>
+      <outfile xil_pn:name="../CECS_440_Project_5/Instruction_memory.v"/>
+      <outfile xil_pn:name="../CECS_440_Project_5/PC.v"/>
+      <outfile xil_pn:name="../CECS_440_lab_4/Data_memory.v"/>
+      <outfile xil_pn:name="../CECS_440_lab_4/mux_32_bit.v"/>
+      <outfile xil_pn:name="../CECS_440_lab_4/mux_5_bit.v"/>
+      <outfile xil_pn:name="../CECS_440_lab_4/sign_extender.v"/>
+      <outfile xil_pn:name="BEQ.v"/>
+      <outfile xil_pn:name="Branch_tb.v"/>
+      <outfile xil_pn:name="Shift_Left_2.v"/>
+      <outfile xil_pn:name="Single_pipelie_branch.v"/>
+      <outfile xil_pn:name="branch_adder.v"/>
+      <outfile xil_pn:name="mux_2_to_1.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1460581222" xil_pn:in_ck="3499593281307559342" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="2541420650080037518" xil_pn:start_ts="1460581216">
+      <status xil_pn:value="FailedRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+    </transform>
+    <transform xil_pn:end_ts="1459901152" xil_pn:in_ck="-3714695375704572912" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="4212667085794518449" xil_pn:start_ts="1459901151">
+      <status xil_pn:value="AbortedRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForced"/>
+      <outfile xil_pn:name="Branch_tb_isim_beh.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+    </transform>
+    <transform xil_pn:end_ts="1458157543" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1458157543">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1458157543" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-674726554769945642" xil_pn:start_ts="1458157543">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1458157543" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="8147932640593706179" xil_pn:start_ts="1458157543">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1458157543" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1458157543">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1458157543" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-3893034125055549548" xil_pn:start_ts="1458157543">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1458157543" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="-3893270297158069842" xil_pn:start_ts="1458157543">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1458157543" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-1802178147599178931" xil_pn:start_ts="1458157543">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1458157618" xil_pn:in_ck="7577161473721132199" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="-845122361961023217" xil_pn:start_ts="1458157613">
+      <status xil_pn:value="FailedRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <outfile xil_pn:name=".lso"/>
+      <outfile xil_pn:name="Single_pipeline_branch.lso"/>
+      <outfile xil_pn:name="Single_pipeline_branch.prj"/>
+      <outfile xil_pn:name="Single_pipeline_branch.syr"/>
+      <outfile xil_pn:name="Single_pipeline_branch.xst"/>
+      <outfile xil_pn:name="Single_pipeline_branch_xst.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+  </transforms>
+
+</generated_project>

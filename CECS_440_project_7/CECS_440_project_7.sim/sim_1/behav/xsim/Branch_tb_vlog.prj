@@ -1,0 +1,24 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../Shift_Left_2.v" \
+"../../../../../mux_2_to_1.v" \
+"../../../../../branch_adder.v" \
+"../../../../../BEQ.v" \
+"../../../../../../CECS_440_Project_5/PC.v" \
+"../../../../../../CECS_440_Project_5/Instruction_memory.v" \
+"../../../../../../CECS_440_Project_5/Instruction_decoder.v" \
+"../../../../../../CECS_440_Project_3/Reg_File.v" \
+"../../../../../../CECS_440_Project_2/Control_Unit.v" \
+"../../../../../../CECS_440_Project_2/ALU.v" \
+"../../../../../../CECS_440_lab_4/sign_extender.v" \
+"../../../../../../CECS_440_lab_4/mux_5_bit.v" \
+"../../../../../../CECS_440_lab_4/mux_32_bit.v" \
+"../../../../../../CECS_440_lab_4/Data_memory.v" \
+"../../../../../Single_pipelie_branch.v" \
+"../../../../../Branch_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;Single_pipelie_branch.v&quot; line 46 </arg>Connection to input port &apos;<arg fmt="%s" index="2">Address</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="261" delta="old" ><arg fmt="%s" index="1">&quot;Single_pipelie_branch.v&quot; line 48 </arg>Connection to output port &apos;<arg fmt="%s" index="2">shifted</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;Single_pipelie_branch.v&quot; line 49 </arg>Connection to input port &apos;<arg fmt="%s" index="2">Shifted</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="261" delta="old" ><arg fmt="%s" index="1">&quot;Single_pipelie_branch.v&quot; line 49 </arg>Connection to output port &apos;<arg fmt="%s" index="2">Location</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;Single_pipelie_branch.v&quot; line 51 </arg>Connection to input port &apos;<arg fmt="%s" index="2">In0</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="261" delta="new" ><arg fmt="%s" index="1">&quot;Single_pipelie_branch.v&quot; line 51 </arg>Connection to output port &apos;<arg fmt="%s" index="2">Out</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="Xst" num="916" delta="old" >&quot;<arg fmt="%s" index="1">../CECS_440_Project_5/PC.v</arg>&quot; line <arg fmt="%d" index="2">33</arg>: Delay is ignored for synthesis.
+</msg>
+
+<msg type="warning" file="Xst" num="2319" delta="old" >&quot;<arg fmt="%s" index="1">../CECS_440_Project_5/Instruction_memory.v</arg>&quot; line <arg fmt="%d" index="2">30</arg>: Signal <arg fmt="%s" index="3">IM</arg> in initial block is partially initialized. The initialization will be ignored.
+</msg>
+
+<msg type="error" file="Xst" num="1468" delta="old" >&quot;<arg fmt="%s" index="1">../CECS_440_Project_5/Instruction_memory.v</arg>&quot; line <arg fmt="%d" index="2">85</arg>: Unexpected event in always block sensitivity list.
+</msg>
+
+</messages>
+

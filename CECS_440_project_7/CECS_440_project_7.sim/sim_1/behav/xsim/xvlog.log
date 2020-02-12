@@ -1,0 +1,37 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/TI10689600G/.Xilinx/CECS_440_project_7/Shift_Left_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Shift_Left_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/TI10689600G/.Xilinx/CECS_440_project_7/mux_2_to_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux_2_bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/TI10689600G/.Xilinx/CECS_440_project_7/branch_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Branch_Adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/TI10689600G/.Xilinx/CECS_440_project_7/BEQ.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BEQ
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/TI10689600G/.Xilinx/CECS_440_Project_5/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/TI10689600G/.Xilinx/CECS_440_Project_5/Instruction_memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Instruction_memory
+WARNING: [VRFC 10-159] /* in comment [D:/TI10689600G/.Xilinx/CECS_440_Project_5/Instruction_memory.v:132]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/TI10689600G/.Xilinx/CECS_440_Project_5/Instruction_decoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Instruction_decoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/TI10689600G/.Xilinx/CECS_440_Project_3/Reg_File.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Reg_File
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/TI10689600G/.Xilinx/CECS_440_Project_2/Control_Unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Control_Unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/TI10689600G/.Xilinx/CECS_440_Project_2/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/TI10689600G/.Xilinx/CECS_440_lab_4/sign_extender.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sign_extender
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/TI10689600G/.Xilinx/CECS_440_lab_4/mux_5_bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux_5_bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/TI10689600G/.Xilinx/CECS_440_lab_4/mux_32_bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux_32_bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/TI10689600G/.Xilinx/CECS_440_lab_4/Data_memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Data_memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/TI10689600G/.Xilinx/CECS_440_project_7/Single_pipelie_branch.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Single_pipeline_branch
+INFO: [VRFC 10-2458] undeclared symbol ALUSrc, assumed default net type wire [D:/TI10689600G/.Xilinx/CECS_440_project_7/Single_pipelie_branch.v:45]
+INFO: [VRFC 10-2458] undeclared symbol MemtoReg, assumed default net type wire [D:/TI10689600G/.Xilinx/CECS_440_project_7/Single_pipelie_branch.v:45]
+INFO: [VRFC 10-2458] undeclared symbol MemRead, assumed default net type wire [D:/TI10689600G/.Xilinx/CECS_440_project_7/Single_pipelie_branch.v:46]
+INFO: [VRFC 10-2458] undeclared symbol MemWrite, assumed default net type wire [D:/TI10689600G/.Xilinx/CECS_440_project_7/Single_pipelie_branch.v:46]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/TI10689600G/.Xilinx/CECS_440_project_7/Branch_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Branch_tb

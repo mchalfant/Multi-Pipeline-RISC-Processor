@@ -1,0 +1,197 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> Reading design: Single_pipeline_branch.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Single_pipeline_branch.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Single_pipeline_branch"
+Output Format                      : NGC
+Target Device                      : xc3s500e-4-fg320
+
+---- Source Options
+Top Module Name                    : Single_pipeline_branch
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "Shift_Left_2.v" in library work
+Compiling verilog file "mux_2_to_1.v" in library work
+Module <Shift_Left_2> compiled
+Compiling verilog file "branch_adder.v" in library work
+Module <mux_2_bit> compiled
+Compiling verilog file "BEQ.v" in library work
+Module <Branch_Adder> compiled
+Compiling verilog file "../CECS_440_Project_5/PC.v" in library work
+Module <BEQ> compiled
+Compiling verilog file "../CECS_440_Project_5/Instruction_memory.v" in library work
+Module <PC> compiled
+Compiling verilog file "../CECS_440_Project_5/Instruction_decoder.v" in library work
+Module <Instruction_memory> compiled
+Compiling verilog file "../CECS_440_Project_3/Reg_File.v" in library work
+Module <Instruction_decoder> compiled
+Compiling verilog file "../CECS_440_Project_2/Control_Unit.v" in library work
+Module <Reg_File> compiled
+Compiling verilog file "../CECS_440_Project_2/ALU.v" in library work
+Module <Control_Unit> compiled
+Compiling verilog file "../CECS_440_lab_4/sign_extender.v" in library work
+Module <ALU> compiled
+Compiling verilog file "../CECS_440_lab_4/mux_5_bit.v" in library work
+Module <sign_extender> compiled
+Compiling verilog file "../CECS_440_lab_4/mux_32_bit.v" in library work
+Module <mux_5_bit> compiled
+Compiling verilog file "../CECS_440_lab_4/Data_memory.v" in library work
+Module <mux_32_bit> compiled
+Compiling verilog file "Single_pipelie_branch.v" in library work
+Module <Data_memory> compiled
+Module <Single_pipeline_branch> compiled
+No errors in compilation
+Analysis of file <"Single_pipeline_branch.prj"> succeeded.
+ 
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for module <Single_pipeline_branch> in library <work>.
+
+Analyzing hierarchy for module <PC> in library <work>.
+
+Analyzing hierarchy for module <Instruction_memory> in library <work>.
+
+Analyzing hierarchy for module <Instruction_decoder> in library <work>.
+
+Analyzing hierarchy for module <mux_5_bit> in library <work>.
+
+Analyzing hierarchy for module <Reg_File> in library <work>.
+
+Analyzing hierarchy for module <mux_32_bit> in library <work>.
+
+Analyzing hierarchy for module <ALU> in library <work>.
+
+Analyzing hierarchy for module <Control_Unit> in library <work>.
+
+Analyzing hierarchy for module <Data_memory> in library <work>.
+
+Analyzing hierarchy for module <sign_extender> in library <work>.
+
+Analyzing hierarchy for module <Shift_Left_2> in library <work>.
+
+Analyzing hierarchy for module <Branch_Adder> in library <work>.
+
+Analyzing hierarchy for module <BEQ> in library <work>.
+
+Analyzing hierarchy for module <mux_2_bit> in library <work>.
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <Single_pipeline_branch>.
+Module <Single_pipeline_branch> is correct for synthesis.
+ 
+Analyzing module <PC> in library <work>.
+WARNING:Xst:916 - "../CECS_440_Project_5/PC.v" line 33: Delay is ignored for synthesis.
+Module <PC> is correct for synthesis.
+ 
+Analyzing module <Instruction_memory> in library <work>.
+WARNING:Xst:2319 - "../CECS_440_Project_5/Instruction_memory.v" line 30: Signal IM in initial block is partially initialized. The initialization will be ignored.
+ERROR:Xst:1468 - "../CECS_440_Project_5/Instruction_memory.v" line 85: Unexpected event in always block sensitivity list.
+ 
+Found 1 error(s). Aborting synthesis.
+--> 
+
+Total memory usage is 291508 kilobytes
+
+Number of errors   :    1 (   0 filtered)
+Number of warnings :    8 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

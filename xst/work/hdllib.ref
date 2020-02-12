@@ -1,0 +1,15 @@
+MO Data_memory NULL ../CECS_440_lab_4/Data_memory.v vlg2A/_data__memory.bin 1458157616
+MO sign_extender NULL ../CECS_440_lab_4/sign_extender.v vlg13/sign__extender.bin 1458157616
+MO Shift_Left_2 NULL Shift_Left_2.v vlg1D/_shift___left__2.bin 1458157616
+MO Control_Unit NULL ../CECS_440_Project_2/Control_Unit.v vlg24/_control___unit.bin 1458157616
+MO mux_5_bit NULL ../CECS_440_lab_4/mux_5_bit.v vlg1C/mux__5__bit.bin 1458157616
+MO Instruction_decoder NULL ../CECS_440_Project_5/Instruction_decoder.v vlg3F/_instruction__decoder.bin 1458157616
+MO Single_pipeline_branch NULL Single_pipelie_branch.v vlg1C/_single__pipeline__branch.bin 1458157616
+MO PC NULL ../CECS_440_Project_5/PC.v vlg53/_p_c.bin 1458157616
+MO mux_32_bit NULL ../CECS_440_lab_4/mux_32_bit.v vlg5C/mux__32__bit.bin 1458157616
+MO Reg_File NULL ../CECS_440_Project_3/Reg_File.v vlg29/_reg___file.bin 1458157616
+MO mux_2_bit NULL mux_2_to_1.v vlg49/mux__2__bit.bin 1458157616
+MO Instruction_memory NULL ../CECS_440_Project_5/Instruction_memory.v vlg42/_instruction__memory.bin 1458157616
+MO Branch_Adder NULL branch_adder.v vlg3D/_branch___adder.bin 1458157616
+MO BEQ NULL BEQ.v vlg1C/_b_e_q.bin 1458157616
+MO ALU NULL ../CECS_440_Project_2/ALU.v vlg2A/_a_l_u.bin 1458157616

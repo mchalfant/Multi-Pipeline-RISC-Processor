@@ -1,0 +1,21 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+D:/TI10689600G/.Xilinx/CECS_440_Project_2/ALU.v,1456560919,verilog,,D:/TI10689600G/.Xilinx/CECS_440_lab_4/sign_extender.v,,ALU,,,,,,,,
+D:/TI10689600G/.Xilinx/CECS_440_Project_2/Control_Unit.v,1460782619,verilog,,D:/TI10689600G/.Xilinx/CECS_440_Project_2/ALU.v,,Control_Unit,,,,,,,,
+D:/TI10689600G/.Xilinx/CECS_440_Project_3/Reg_File.v,1462474227,verilog,,D:/TI10689600G/.Xilinx/CECS_440_Project_2/Control_Unit.v,,Reg_File,,,,,,,,
+D:/TI10689600G/.Xilinx/CECS_440_Project_5/Instruction_decoder.v,1461375848,verilog,,D:/TI10689600G/.Xilinx/CECS_440_Project_3/Reg_File.v,,Instruction_decoder,,,,,,,,
+D:/TI10689600G/.Xilinx/CECS_440_Project_5/Instruction_memory.v,1462952887,verilog,,D:/TI10689600G/.Xilinx/CECS_440_Project_5/Instruction_decoder.v,,Instruction_memory,,,,,,,,
+D:/TI10689600G/.Xilinx/CECS_440_Project_5/PC.v,1461376780,verilog,,D:/TI10689600G/.Xilinx/CECS_440_Project_5/Instruction_memory.v,,PC,,,,,,,,
+D:/TI10689600G/.Xilinx/CECS_440_lab_4/Data_memory.v,1462348619,verilog,,D:/TI10689600G/.Xilinx/CECS_440_project_7/Single_pipelie_branch.v,,Data_memory,,,,,,,,
+D:/TI10689600G/.Xilinx/CECS_440_lab_4/mux_32_bit.v,1461720415,verilog,,D:/TI10689600G/.Xilinx/CECS_440_lab_4/Data_memory.v,,mux_32_bit,,,,,,,,
+D:/TI10689600G/.Xilinx/CECS_440_lab_4/mux_5_bit.v,1460781948,verilog,,D:/TI10689600G/.Xilinx/CECS_440_lab_4/mux_32_bit.v,,mux_5_bit,,,,,,,,
+D:/TI10689600G/.Xilinx/CECS_440_lab_4/sign_extender.v,1457333182,verilog,,D:/TI10689600G/.Xilinx/CECS_440_lab_4/mux_5_bit.v,,sign_extender,,,,,,,,
+D:/TI10689600G/.Xilinx/CECS_440_project_7/BEQ.v,1457988109,verilog,,D:/TI10689600G/.Xilinx/CECS_440_Project_5/PC.v,,BEQ,,,,,,,,
+D:/TI10689600G/.Xilinx/CECS_440_project_7/Branch_tb.v,1458968617,verilog,,,,Branch_tb,,,,,,,,
+D:/TI10689600G/.Xilinx/CECS_440_project_7/CECS_440_project_7/CECS_440_project_7.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
+D:/TI10689600G/.Xilinx/CECS_440_project_7/Shift_Left_2.v,1457987621,verilog,,D:/TI10689600G/.Xilinx/CECS_440_project_7/mux_2_to_1.v,,Shift_Left_2,,,,,,,,
+D:/TI10689600G/.Xilinx/CECS_440_project_7/Single_pipelie_branch.v,1554870601,verilog,,D:/TI10689600G/.Xilinx/CECS_440_project_7/Branch_tb.v,,Single_pipeline_branch,,,,,,,,
+D:/TI10689600G/.Xilinx/CECS_440_project_7/branch_adder.v,1457988467,verilog,,D:/TI10689600G/.Xilinx/CECS_440_project_7/BEQ.v,,Branch_Adder,,,,,,,,
+D:/TI10689600G/.Xilinx/CECS_440_project_7/mux_2_to_1.v,1460497951,verilog,,D:/TI10689600G/.Xilinx/CECS_440_project_7/branch_adder.v,,mux_2_bit,,,,,,,,

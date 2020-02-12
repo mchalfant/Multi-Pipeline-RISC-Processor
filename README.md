@@ -4,11 +4,11 @@ Cailfornia State University, Long Beach CECS 440 Spring 2016 Final Project
 # About
 A RISC instruction set multi-pipeline processor designed in Verilog
 
-IF: Instruction Fetch
-ID: Instruction Decode
-EXE: Execute
-MEM: Memory
-WB: Write Back
+* IF: Instruction Fetch
+* ID: Instruction Decode
+* EXE: Execute
+* MEM: Memory
+* WB: Write Back
 
 # Development Environment
 IDE: Xilinx ISE 14.7
